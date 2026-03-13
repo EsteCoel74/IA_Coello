@@ -2,31 +2,11 @@
 
 Une application WPF permettant de converser avec le modèle **GPT 4o Mini** d'OpenAI.
 
-## Configuration
 
-### 1. Obtenir une clé API OpenAI
+##Sécurité
 
-1. Allez sur [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-2. Créez une nouvelle clé API
-3. Copiez la clé (vous ne pourrez pas la voir à nouveau)
-
-### 2. Configurer la clé API
-
-1. Ouvrez le fichier `appsettings.json`
-2. Remplacez `YOUR_API_KEY_HERE` par votre clé API:
-   ```json
-   {
-     "OpenAI": {
-       "ApiKey": "sk-your-api-key-here"
-     }
-   }
-   ```
-
-### 3. Sécurité
-
-- Le fichier `appsettings.json` est inclus dans `.gitignore` pour éviter de commiter votre clé API
-- Ne commitez **jamais** votre clé API dans un dépôt public
-- Si vous avez accidentellement commité votre clé, régénérez-la immédiatement
+- Le fichier `appsettings.json` est inclus dans `.gitignore` pour éviter de commiter la clé clé API
+- Ne commitez **jamais** la clé API dans un dépôt public
 
 ## Utilisation
 
