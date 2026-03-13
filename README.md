@@ -48,7 +48,3 @@ Une application WPF permettant de converser avec le modèle **GPT 4o Mini** d'Op
 - **Configuration/AppSettings.cs** : Gestion de la configuration
 - **MainWindow.xaml/cs** : Interface utilisateur WPF
 
-## Coûts
-
-Attention : Chaque conversation avec GPT 4o Mini utilise des tokens et peut engendrer des coûts.
-Consultez les [tarifs OpenAI](https://openai.com/pricing) pour plus de détails.
