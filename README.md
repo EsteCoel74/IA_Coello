@@ -10,7 +10,7 @@ Une application WPF permettant de converser avec le modèle **GPT 4o Mini** d'Op
 
 ## Utilisation
 
-1. Compilez et lancez l'application
+1. Compilez et lancez l'application avec le .bat ou via Visual Studio 2026 ou avec Wine si vous êtes sur Linux
 2. Tapez votre message dans le champ de texte
 3. Cliquez sur "Envoyer" ou appuyez sur Entrée
 4. Attendez la réponse de ChatGPT
@@ -21,6 +21,7 @@ Une application WPF permettant de converser avec le modèle **GPT 4o Mini** d'Op
 - .NET 10.0 ou supérieur
 - Visual Studio 2026 (ou un autre IDE compatible)
 - Une clé API OpenAI active
+- Si vous êtes sur Linux, il faut avoir Wine
 
 ## Architecture
 
